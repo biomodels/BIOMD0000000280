@@ -1,3 +1,21 @@
+# BIOMD0000000280: Morris1981_MuscleFibre_Voltage_reduced
+
+## Installation
+
+Download this repository, and install with distutils
+
+`python setup.py install`
+
+Or, install using pip
+
+`pip install git+https://github.com/biomodels/BIOMD0000000280.git`
+
+To install a specific version (in this example, from the 2014-09-16 BioModels release)
+
+`pip install git+https://github.com/biomodels/BIOMD0000000280.git@20140916`
+
+
+# Model Notes
 
 
 This is the **reduced** model of the voltage oscillations in barnacle muscle
@@ -33,4 +51,5 @@ The model consists of the differential equations (9) and (2) given on pages
 figure 9. Using V2 = 15 instead of -15 allows to reproduce the results.
 
 Originally created by libAntimony v1.4 (using libSBML 3.4.1)
+
 
